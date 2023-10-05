@@ -34,13 +34,13 @@ Please note, this HIP does not define WiFi AP types and does intend to decouple 
 ## MSRP-based Pricing
 
 The proposed onboarding fees are based on the principle of being approximately 10% of the initial MSRP of the respective devices. This approach ensures a fair and consistent fee structure relative to the value of the devices being onboarded.  It is important to note that this section is simply explaining the rationale behind the decision for the pricing and does advocate for any dynamic pricing. It is anticipated that future device classes introduced to the Helium Network will adopt a similar onboarding fee structure based on their own MSRP. This approach maintains consistency and predictability for device manufacturers, network operators, and other stakeholders.
-Q: What if a new vendor comes along with a new device that can earn MOBILE as one part of its function and is high priced? 
+
 
 ## Flexibility for Cost Reductions
 
 In the event of a significant reduction in the hardware costs associated with devices, the community is advised to reassess the onboarding fees. A principle of maintaining approximately 10% of MSRP as the fee should be applied to align the fees with the evolving landscape of hardware costs, network growth, and token valuation.
 
-* Q: How would reductions change the DC/MOBILE split?
+
 
 # Rationale
 
