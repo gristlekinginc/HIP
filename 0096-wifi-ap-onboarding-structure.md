@@ -1,6 +1,6 @@
 # HIP 96: WiFi AP Onboarding Structure
 
-- Authors: [Max Gold](https://github.com/maxgold91), [Nova Labs, Inc](https://nova.xyz), [Nik Hawks](https://github.com/gristlekinginc), TBD
+- Authors: [Max Gold](https://github.com/maxgold91), [Nik Hawks](https://github.com/gristlekinginc)
 - Start Date: 2023-08-31
 - Category: Economic, Technical
 - Original HIP PR: [#744](https://github.com/helium/HIP/pull/780)
@@ -41,7 +41,6 @@ The proposed onboarding fees are based on the principle of being approximately 1
 In the event of a significant reduction in the hardware costs associated with devices, the community is advised to reassess the onboarding fees. A principle of maintaining approximately 10% of MSRP as the fee should be applied to align the fees with the evolving landscape of hardware costs, network growth, and token valuation.
 
 
-
 # Rationale
 
 The chosen onboarding fee structure balances the need for fair compensation, network expansion, and alignment with device value. The 10% approximation of MSRP serves as a reliable anchor for establishing these fees and ensuring their adaptability to changing circumstances.  
@@ -55,6 +54,7 @@ The chosen onboarding fee structure balances the need for fair compensation, net
 # Drawbacks
 
 * This fee structure is a bit more complicated to implement than the current onboarding process.
-* This fee structure will negatively affect the ‘A’ score in the DAO utility score as opposed to using DC burn.
 * There is a potential for a maker to either have insufficient DC or MOBILE to onboard devices.  There is currently no mechanism to ensure that any maker has enough DC in their maker wallet and the authors believe another HIP should be written in the future to remedy this problem.  Under the rules agreed to in HIP-53 a hotspot maker must stake 50M MOBILE tokens to be an approved maker.
+* MOBILE prices are based on human oracles and not Python automated oracles.  This creates a potential situation where if human oracles stop quoting prices we will be unable to calculate a price in MOBILE.
+   - The above is unlikely, as it would also mean any data transfer payments would not be calculated. 
 
