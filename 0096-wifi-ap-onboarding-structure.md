@@ -1,6 +1,6 @@
 # HIP 96: WiFi AP Onboarding Structure
 
-- Authors: [Max Gold](https://github.com/maxgold91), [Nik Hawks](https://github.com/gristlekinginc)
+- Authors: [Max Gold](https://github.com/maxgold91) & [Nik Hawks](https://github.com/gristlekinginc)
 - Start Date: 2023-08-31
 - Category: Economic, Technical
 - Original HIP PR: [#744](https://github.com/helium/HIP/pull/780)
